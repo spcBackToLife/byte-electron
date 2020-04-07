@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+
+    "src/**/*.js": {
+      "when": "$(basename).ts"
+    },
+  },
+}
